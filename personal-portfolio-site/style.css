@@ -23,16 +23,16 @@ h3 {
   font-family: sans-serif;
 }
 a {
-  color: #c9c3cb;
+  color: #908992;
   padding: 0.2rem 0.1rem;
   text-decoration: none;
 }
 
 .container {
-  background-color: #d1dfe0c7;
+  background-color: #cfd7d8c7;
   margin: 2.25rem auto;
   max-width: 85rem;
-  width: 85%;
+  width: 80%;
   box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
@@ -49,6 +49,7 @@ a {
   font-style: bold;
   margin-top: 2rem;
   font-size: 36pt;
+
 }
 
 .header__nav_list {
@@ -88,6 +89,7 @@ a {
 }
 
 .profile__image {
+  border-radius: 50px;
   width: 20vw;
   height: auto;
   box-shadow: 4px 8px 9px rgb(54, 54, 54);
