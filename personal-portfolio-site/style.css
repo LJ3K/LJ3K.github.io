@@ -72,9 +72,15 @@ a {
   max-width: 100%;
 }
 
+.profile__skills {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
 .projects__title {
   text-align: center;
-margin: 50px;
+  margin: 50px;
 }
 
 .projects {
