@@ -32,14 +32,14 @@ h3 {
 }
 
 a {
-  color: #fffeff;
+  color: rgb(206, 206, 206);
   padding: 0.2rem 0.1rem;
   text-decoration: none;
   font-size: 16pt;
 }
 
 .container1 {
-  background-color: #6f60505d;
+  background-color: #f2e9e9;
   border-radius: 50px;
   margin: 2.25rem auto;
   max-width: 80rem;
@@ -53,9 +53,10 @@ a {
 }
 
 .container2 {
-  background-color: #2e21215d;
+  background-color: #aa72725d;
   border-radius: 50px;
   list-style-type: none;
+  list-style: none;
   text-align: center;
   margin: 2.25rem auto;
   max-width: 80rem;
@@ -68,7 +69,22 @@ a {
 }
 
 .container3 {
-  background-color: #cabebe5d;
+  background-color: #a576765d;
+  border-radius: 50px;
+  text-align: center;
+  list-style-type: none;
+  margin: 3.25rem auto;
+  max-width: 80rem;
+  margin-top: 1rem;
+  margin-bottom: 2em;
+  width: 75%;
+  box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 131px -44px rgba(11, 28, 11, 0.75);
+  -moz-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
+}
+
+.container4 {
+  background-color: #7d6d6d5d;
   border-radius: 50px;
   list-style-type: none;
   text-align: center;
@@ -82,7 +98,7 @@ a {
   -moz-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
 }
 
-.container4 {
+.container5 {
   background-color: #2213135d;
   border-radius: 50px;
   list-style-type: none;
