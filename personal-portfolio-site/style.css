@@ -9,8 +9,8 @@
 html {
   color: #000000;
   font: 18px/1.618 sans-serif;
-  font-family: "Scada", sans-serif;
-  font-size: 16pt;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13pt;
 }
 
 h1 {
@@ -43,7 +43,9 @@ a {
   border-radius: 50px;
   margin: 2.25rem auto;
   max-width: 80rem;
-  margin-top: 5rem;
+  max-height: 50rem;
+  margin-top: .5rem;
+  margin-bottom: 2em;
   width: 85%;
   box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 131px -44px rgba(11, 28, 11, 0.75);
@@ -55,9 +57,10 @@ a {
   border-radius: 50px;
   list-style-type: none;
   text-align: center;
-  margin: 3.25rem auto;
+  margin: 2.25rem auto;
   max-width: 80rem;
-  margin-top: 1em;
+  margin-top: .5em;
+  margin-bottom: 2em;
   width: 85%;
   box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 131px -44px rgba(11, 28, 11, 0.75);
@@ -72,7 +75,23 @@ a {
   margin: 3.25rem auto;
   max-width: 80rem;
   margin-top: 1rem;
-  width: 85%;
+  margin-bottom: 2em;
+  width: 75%;
+  box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 131px -44px rgba(11, 28, 11, 0.75);
+  -moz-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
+}
+
+.container4 {
+  background-color: #2213135d;
+  border-radius: 50px;
+  list-style-type: none;
+  text-align: center;
+  margin: 3.25rem auto;
+  max-width: 80rem;
+  margin-top: 1rem;
+  margin-bottom: 2em;
+  width: 75%;
   box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 131px -44px rgba(11, 28, 11, 0.75);
   -moz-box-shadow: 10px 10px 131px -44px rgba(0, 0, 0, 0.75);
@@ -81,7 +100,10 @@ a {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 8em;
+  text-shadow: lightblue;
+  font-size: 3;
 }
 
 #header__logo {
@@ -90,6 +112,7 @@ a {
   margin-top: 2rem;
   font-size: 45pt;
   text-align: center;
+  margin-bottom: 1;
 }
 
 .header__nav_list {
@@ -100,7 +123,7 @@ a {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  background: rgb(58, 14, 14);
+  background: rgb(46, 42, 94);
 }
 
 .header__nav_listItem {
@@ -109,9 +132,9 @@ a {
 }
 
 .header__nav_listItem:hover {
-  background-color: rgb(84, 128, 175);
-  border: 2px solid #1f0303;
-  border-radius: 50rem;
+  background-color: rgb(121, 138, 156);
+  border: 1px solid #0e1346;
+  border-radius: 0;
   transition: 1.9s;
 }
 
@@ -132,7 +155,7 @@ a {
   width: 30vw;
   height: auto;
   box-shadow: 4px 8px 9px rgb(54, 54, 54);
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   margin-top: 0;
 }
 
@@ -202,7 +225,7 @@ a {
 }
 
 .projects__column_title {
-  margin: 2rem;
+  margin: 5rem;
   text-align: center;
 }
 
