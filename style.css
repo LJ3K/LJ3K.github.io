@@ -201,11 +201,12 @@ section {
 article {
   border: solid;
   margin-top: 2em;
+  
 }
 
 p {
   margin: 1em 0;
-  text-align: center;
+text-align: center;
   line-height: 2em;
 }
 
@@ -220,12 +221,13 @@ h2 {
   font-weight: 900;
   font-size: 24pt;
   letter-spacing: 10px;
-  color: #235882;
+  color:#235882;
 }
 
 h3 {
   padding-top: 1em;
-  color: #235882;
+  color:#235882;
+ 
 }
 
 #about {
@@ -259,7 +261,7 @@ h3 {
 
 #myProjects article {
   background: #ccc;
-  padding: 0.25em;
+  padding: .25em;
   border-color: #235882;
 }
 
@@ -267,17 +269,18 @@ h3 {
   background: #ccc;
   padding: 15px;
   width: 100%;
-  margin-top: 0.5em;
+  margin-top: .5em;
   border-radius: 1%;
   padding-bottom: 2px;
 }
 
 #myProjects h3 {
-  color: #235882;
+  color: #235882
 }
 
-#myProjects p {
-  font-size: 13pt;
+#myProjects p{
+font-size: 13pt;
+word-spacing: normal;
 }
 
 #skills {
@@ -296,7 +299,6 @@ h3 {
   border-bottom: solid;
   border-width: 100%;
   padding-bottom: 2em;
-  word-spacing: 8px;
 }
 
 #resume {
@@ -356,6 +358,10 @@ h3 {
   word-spacing: 8px;
 }
 
+#contacts img {
+  width: 22vw;
+}
+
 footer {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -371,4 +377,18 @@ footer {
 
 #resume div {
   padding-top: 2em;
+}
+
+#contact img{
+  width: 65px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+ 
+}
+
+#contact h2 {
+  padding-bottom: 1em;
 }
