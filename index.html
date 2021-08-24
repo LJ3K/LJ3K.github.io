@@ -70,7 +70,7 @@
 
     <section id="skills"><h2>SKILLS</h2>
       <h3>TECHNICAL INVENTORY</h3>
-      <p>Java • Spring • Thymeleaf • JavaScript • MVC • HTML • CSS • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • JSON • React • REST APIs • Responsive Design / Mobile • Relational Databases • Source Control / GitHub • SAP SuccessFactors • Google Workspace • Microsoft Excel • Microsoft Word</p>
+      <p>Java • Spring • Thymeleaf • JavaScript • MVC • HTML • CSS • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • JSON • React • REST APIs • Responsive Design / Mobile • Relational Databases • Source Control / GitHub • SAP SuccessFactors • Google Workspace • Microsoft Office Suite</p>
       <h3>SPOKEN LANGUAGES</h3>
       <p>English: Native Speaker • Polish: Limited Proficiency • Mandarin: Limited Proficiency</p>
     </section>
@@ -100,7 +100,7 @@
 
     <section id="resume"><h2>RESUME</h2>
           <div>
-              <iframe id="pdf" src="./assets/lawrencejonesresume.pdf" title="webviewer" frameborder="0" width="800" height="900"></iframe>
+              <iframe id="pdf" src="./assets/lawrenceresume.pdf" title="webviewer" frameborder="0" width="800" height="900"></iframe>
           </div>
       </div>
   </section>
@@ -108,10 +108,13 @@
 
     <section id="contact"><h2>CONTACT</h2>
       <div id="contacts">
-    <a href="linkedin.com/in/lawrenceljones"><img src="assets/linked.png" alt=""></a>
+    <a href="https://linkedin.com/in/lawrenceljones"><img src="assets/linked.png" alt=""></a>
     <a href="https://github.com/LJ3K"><img src="assets/git.png" alt=""></a>
   </div>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+
   </main>
 
 
@@ -124,6 +127,25 @@
             x.style.display = "block";
           }
         }
+        //Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
         </script>
   <footer>
     &copy; 2021 LAWRENCE JONES
