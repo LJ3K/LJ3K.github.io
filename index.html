@@ -9,10 +9,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
-  <body></body>
+  <body>
 
+
+    <div id="base-wrapper">
+      <div class="base-container">
+        <div class="topnav">
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#resume">RESUME</a>
+          <a href="#contact">CONTACT</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#resume">RESUME</a>
+          <a href="#contact">CONTACT</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+
+
+
+      <!--   <nav>
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#resume">RESUME</a>
+          <a href="#contact">CONTACT</a>
+           -->
+      
+      
+        </nav>
+
+
+
+
+
+
+  
+        <!-- End smartphone / tablet look -->
+        </div>
   <header>
-    <img src="assets/profile-2021.jpg" alt="">
+    <img src="assets/profile-2021.jpg">
     <h1>LAWRENCE JONES</h1>
     <span>SOFTWARE DEVELOPER</span>
   </header>
@@ -34,17 +79,17 @@
     <div id="myProjects">
 <article>
   <h3>VIRTUAL PET SHELTER</h3>
-  <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-LJ3K"><img src="./assets/virtual-pet-shelter.jpg"></a>
+  <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-LJ3K"><img src="./assets/virtual-pet-shelter.jpg" style="width:100%;"></a>
   <p>A Java app allowing the user to play the role of a pet shelter worker.</p>
 </article>
 <article>
   <h3>WE'RE HOOKED</h3>
-  <a href="https://github.com/pt-spring-2021-final-projects/were-hooked-repo"><img src="./assets/hooked.png"></a>
+  <a href="https://github.com/pt-spring-2021-final-projects/were-hooked-repo"><img src="./assets/hooked.png" style="width:100%;"></a>
   <p>An application allowing users to learn more about fishing in the State of Ohio. (Java, JavaScript, HTML, CSS)</p>
 </article>
 <article>
   <h3>PĄCZKI (DONUT) CLICKER</h3>
-  <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-LJ3K"><img src="./assets/clicker.png"></a>
+  <a href="https://github.com/2021-Spring-Part-Time/donut-clicker-LJ3K"><img src="./assets/clicker.png" style="width:100%;"></a>
   <p>My take on the classic Cookie Clicker game. (Java, JavaScript, HTML, CSS)</p>
 </article>
 
@@ -55,7 +100,7 @@
 
     <section id="resume"><h2>RESUME</h2>
           <div>
-              <iframe id="pdf" src="./assets/lawrence.pdf" title="webviewer" frameborder="0" width="800" height="900"></iframe>
+              <iframe id="pdf" src="./assets/lawrencejonesresume.pdf" title="webviewer" frameborder="0" width="800" height="900"></iframe>
           </div>
       </div>
   </section>
@@ -70,17 +115,18 @@
   </main>
 
 
-  <nav>
-    <a href="#about">ABOUT</a>
-    <a href="#skills">SKILLS</a>
-    <a href="#projects">PROJECTS</a>
-    <a href="#resume">RESUME</a>
-    <a href="#contact">CONTACT</a>
-    
-
-
-  </nav>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
   <footer>
     &copy; 2021 LAWRENCE JONES
   </footer>
+</body>
 </html>

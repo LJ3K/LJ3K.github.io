@@ -167,7 +167,7 @@ header span {
   }
 }
 
-nav {
+/* nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -191,7 +191,7 @@ nav a {
 
 nav a:hover {
   background: #648ec9;
-}
+} */
 section {
   margin: 1em 0;
   padding-top: 3em;
@@ -392,3 +392,59 @@ footer {
 #contact h2 {
   padding-bottom: 1em;
 }
+
+
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-flow: row;
+  background-color: #f7ab00;
+  border-bottom: solid 5px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+  border-bottom: solid 5px;
+  border-color: #bcdbde;
+  border-top: solid 5px;
+  border-color: #bcdbde;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  text-decoration: none;
+  color: #235882;
+  padding: 0.5em 1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin: 0rem auto;
+	text-decoration: none;
+	font-size: 26px;
+	display: flex;
+	flex-direction: column;
+  box-sizing: border-box;
+}
+
+
+.topnav a.icon {
+ display: none;
+}
+
+
+.topnav a:hover {
+  background: #648ec9;
+ 
+}
+
+
+.active {
+  background-color: #1bc989;
+  color: white;
+}
+
